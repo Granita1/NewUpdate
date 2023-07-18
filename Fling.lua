@@ -1,4 +1,4 @@
-t=1
+t=0
 if workspace[game.Players.LocalPlayer.Name].Humanoid.RigType==(Enum.HumanoidRigType.R15) then
     R6=false
     game.StarterGui:SetCore("SendNotification", {
@@ -13,7 +13,7 @@ if workspace[game.Players.LocalPlayer.Name].Humanoid.RigType==(Enum.HumanoidRigT
  uis = game:GetService("UserInputService")--NoIdeaIfThisWorks!
  Mobile = uis.TouchEnabled
 if Mobile then
-    if t==1 then
+    if t==0 then
     t=1
 game.StarterGui:SetCore("SendNotification", {
 	Title = "Checker";
@@ -112,12 +112,12 @@ wait()
 workspace.Camera.CFrame=_G.OldCF
 game.Players.LocalPlayer.Character=oldchar
 end
-_G.ClickFling=true -- Set this to true if u want.
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/OofTorso-FE/nexo-before-deleted/main/NexoPD'),true))()
-z1 = Instance.new("Sound",workspace[game.Players.LocalPlayer.Name].Torso) z1.SoundId = "rbxassetid://1158091668" z1.Volume = 5 z1.Looped = false 
-z2 = Instance.new("Sound",workspace[game.Players.LocalPlayer.Name].Torso) z2.SoundId = "rbxassetid://1158091792" z2.Volume = 5 z2.Looped = false 
-z3 = Instance.new("Sound",workspace[game.Players.LocalPlayer.Name].Torso) z3.SoundId = "rbxassetid://1158091961" z3.Volume = 5 z3.Looped = false 
-z4 = Instance.new("Sound",workspace[game.Players.LocalPlayer.Name].Torso) z4.SoundId = "rbxassetid://1158092150" z4.Volume = 5 z4.Looped = false 
+_G.ClickFling = true -- Set this to true if u want.
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/OofHead-FE/nexo-before-deleted/main/NexoPD'),true))()
+z1 = Instance.new("Sound",workspace[game.Players.LocalPlayer.Name].Head) z1.SoundId = "rbxassetid://1158091668" z1.Volume = 5 z1.Looped = false 
+z2 = Instance.new("Sound",workspace[game.Players.LocalPlayer.Name].Head) z2.SoundId = "rbxassetid://1158091792" z2.Volume = 5 z2.Looped = false 
+z3 = Instance.new("Sound",workspace[game.Players.LocalPlayer.Name].Head) z3.SoundId = "rbxassetid://1158091961" z3.Volume = 5 z3.Looped = false 
+z4 = Instance.new("Sound",workspace[game.Players.LocalPlayer.Name].Head) z4.SoundId = "rbxassetid://1158092150" z4.Volume = 5 z4.Looped = false 
 Main = Instance.new("Sound",workspace.Camera.CameraSubject) Main.SoundId = "rbxassetid://1847627585" Main.Volume = 3 Main.Looped = true
 if yes==true then
 Main:Play()
@@ -230,10 +230,10 @@ LH.C0 = LH.C0:Lerp(CF(-0.5+0*math.cos(sine/5),-1+0*math.cos(sine/5),0+0*math.cos
         srv.RenderStepped:Wait()
         end
         end)()
-                workspace.Camera.CameraSubject=workspace[game.Players.LocalPlayer.Name].Torso
+                workspace.Camera.CameraSubject=workspace[game.Players.LocalPlayer.Name].Head
                 game.StarterGui:SetCore("SendNotification", {
 	Title = "Loaded!";
-	Text = "FE Zombie Made By BlueCat";
+	Text = "FE Zombie Made By Monzz";
 	Duration = 15
 })
 end
