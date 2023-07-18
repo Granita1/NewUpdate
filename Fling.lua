@@ -112,7 +112,7 @@ wait()
 workspace.Camera.CFrame=_G.OldCF
 game.Players.LocalPlayer.Character=oldchar
 end
-_G.ClickFling=false -- Set this to true if u want.
+_G.ClickFling=true -- Set this to true if u want.
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/OofHead-FE/nexo-before-deleted/main/NexoPD'),true))()
 z1 = Instance.new("Sound",workspace[game.Players.LocalPlayer.Name].Head) z1.SoundId = "rbxassetid://1158091668" z1.Volume = 5 z1.Looped = false 
 z2 = Instance.new("Sound",workspace[game.Players.LocalPlayer.Name].Head) z2.SoundId = "rbxassetid://1158091792" z2.Volume = 5 z2.Looped = false 
